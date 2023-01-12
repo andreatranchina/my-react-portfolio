@@ -1,0 +1,15 @@
+.light-mode {
+    transition: var(--transition);
+    --color-bg: rgb(255, 255, 255);
+    --color-bg-variant: rgb(216, 212, 212);
+
+    --color-primary: #397b23;
+    --color-primary-variant: #49b55566;
+
+    --color-white: black;
+    --color-light: grey;
+
+    background-image: url("https://transparenttextures.com/patterns/clean-textile.png");    
+}
+
+    
