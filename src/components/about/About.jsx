@@ -26,8 +26,8 @@ const About = () => {
 
           <article className="about-card">
           <MdSchool className="about-icon" />
-            <h5>Clients</h5>
-            <small>B.S Computer Science Student</small>
+            <h5>Education</h5>
+            <small>Current B.S. Computer Science Student</small>
           </article>
 
           <article className="about-card">
