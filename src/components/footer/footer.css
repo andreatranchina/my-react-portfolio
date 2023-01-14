@@ -23,18 +23,22 @@ footer-logo{
 }
 
 .permalinks{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1.8rem;
-    margin: 0 auto 2rem;
+    display: inline-block;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    gap: 2rem;
+    /* margin: 0 auto 2rem; */
+}
+
+.id-link{
+    margin: 0 1rem;
 }
 
 .footer-socials{
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin-bottom: 2rem;
+    margin: 2rem 0 0.3rem;
 }
 
 .footer-socials a{
@@ -47,7 +51,7 @@ footer-logo{
     font-size: 1.3rem;
 }
 
-.footer-socials:hover{
+.footer-socials a:hover{
     background: transparent;
     color: var(--color-bg);
     border-color: var(--color-bg);

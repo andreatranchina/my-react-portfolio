@@ -1,4 +1,4 @@
-import IMG1 from "../../images/myWebsite.png"
+import IMG1 from "../../images/notekeeper.png"
 import IMG2 from "../../images/myWebsite.png"
 import IMG3 from "../../images/simonGame.png"
 import IMG4 from "../../images/drumKit.png"
@@ -11,8 +11,8 @@ const items = [
         id: 1,
         image: IMG1,
         title: "Note Keeper App",
-        github: "https://github.com",
-        demo:""
+        github: "https://github.com/andreatranchina/note-keeper-app",
+        demo:"https://notekeeperapp-andreatranchina.netlify.app/"
     },
     {
         id: 2,

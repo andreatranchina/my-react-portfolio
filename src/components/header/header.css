@@ -26,18 +26,22 @@
     margin-top: 0.2rem;
     }
 
-.mode-topnav:hover{
+.mode-topnav-icon{
+    position: absolute;
+    left: 85.5%;
+    font-size: 1.3rem;
+    margin-top: 0.2rem;
+}
+
+.changemode-container:hover{
     cursor: pointer;
     color: var(--color-white);
 }
 
-.mode-topnav-icon{
-    position: absolute;
-    /* right: 12.7%; */
-    font-size: 1.3rem;
-    margin-left: 15%;
-    /* margin-top: 0.2rem; */
-}
+/* .mode-topnav-icon:hover{
+    cursor: pointer;
+    color: var(--color-white);
+} */
 
 header{
     height: 110vh;
@@ -55,7 +59,7 @@ header{
 .cta{
     margin-top: 2.5rem;
     display: flex;
-    gap: 1.2rem;
+    /* gap: 1.2rem; */
     justify-content: center;
 }
 
@@ -64,7 +68,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.8rem;
+    /* gap: 0.8rem; */
     position: absolute;
     left: 0;
     bottom: 4rem;
@@ -75,6 +79,7 @@ header{
     width: 2px;
     height: 2rem;
     background: var(--color-primary);
+    margin-top: 0.8rem;
 }
 
 /***************my-image**************/

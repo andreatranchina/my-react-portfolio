@@ -27,8 +27,8 @@ const Portfolio = () => {
           </div>
             <h3>{title}</h3>
             <div className="portfolio-item-cta">
-              <a href={github} className="" target="_blank" rel="noreferrer">Github → </a>
-              <a href={demo} className="" target="_blank" rel="noreferrer">Website → </a>     
+              <a href={github} className="link" target="_blank" rel="noreferrer">Github → </a>
+              <a href={demo} className="link" target="_blank" rel="noreferrer">Website → </a>     
             </div>     
         </article>)
       })

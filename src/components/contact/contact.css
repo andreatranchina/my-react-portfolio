@@ -42,7 +42,7 @@ form{
     display: flex;
     flex-direction: column;
     /* grid-template-columns: 1fr 1fr; */
-    gap: 1.1rem;
+    /* gap: 1.1rem; */
 }
 
 input, textarea{
@@ -53,4 +53,5 @@ input, textarea{
     border: 2px solid var(--color-primary-variant);
     resize: none;
     color: var(--color-white);
+    margin-bottom: 0.8rem;
 }

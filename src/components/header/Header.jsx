@@ -16,9 +16,12 @@ const Header = (props) => {
       <div className="topnav-container">
         <h3 className="name-topnav">Andrea</h3>
         {/* <BsSunFill className="change-theme"/> */}
-        <p className="mode-topnav" onClick={props.lightMode} booleanLightMode={props.booleanLightMode}>
-        {booleanLightMode? "Dark Mode": "Light Mode"} {booleanLightMode? <BsMoonFill className="mode-topnav-icon"/>: <BsSunFill className="mode-topnav-icon"/>}
+        <div className="changemode-container" onClick={props.lightMode}>
+        <p className="mode-topnav" booleanLightMode={props.booleanLightMode}>
+        {booleanLightMode? "Dark Mode": "Light Mode"}
         </p>
+        {booleanLightMode? <BsMoonFill className="mode-topnav-icon"/>: <BsSunFill className="mode-topnav-icon"/>}
+        </div>
     
       </div>
 

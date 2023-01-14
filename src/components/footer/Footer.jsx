@@ -7,13 +7,13 @@ const Footer = () => {
     <footer>
         <h2 href="#" className="footer-logo">Andrea</h2>
 
-        <ul className="permalinks">
-            <li><a href="#header">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+        <div className="permalinks">
+            <a className="id-link" href="#header">Home</a>
+            <a className="id-link" href="#about">About</a>
+            <a className="id-link" href="#experience">Experience</a>
+            <a className="id-link" href="#portfolio">Portfolio</a>
+            <a className="id-link" href="#contact">Contact</a>
+        </div>
 
         <div className="footer-socials">
             <a href="https://github.com/andreatranchina" target="_blank" rel="noreferrer"><FaGithub /></a>
