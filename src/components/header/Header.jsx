@@ -30,7 +30,7 @@ const Header = (props) => {
         <h1>Andrea Tranchina</h1>
         <h5 className="text-light">Undergraduate Student and Aspiring Software Developer</h5>
         <CTA />
-        <HeaderSocials />
+        <HeaderSocials className="header-socials"/>
         <div className="my-image">
         <img className="image-photo" 
         src="https://media3.giphy.com/media/XB962LhGuxsnJInW9I/200w.webp?cid=ecf05e473ed4wzb8ixz747f2obrj7gdvptaa9te5m7g1yprv&rid=200w.webp&ct=s" alt="me" />

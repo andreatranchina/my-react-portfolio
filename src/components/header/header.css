@@ -44,7 +44,7 @@
 } */
 
 header{
-    height: 110vh;
+    height: 50rem;
     padding-top: 6rem;
     overflow: hidden;
 }
@@ -71,7 +71,7 @@ header{
     /* gap: 0.8rem; */
     position: absolute;
     left: 0;
-    bottom: 4rem;
+    bottom: 5rem;
 }
 
 .header-socials::after{
@@ -107,7 +107,7 @@ header{
 .scroll-down{
     position: absolute;
     right: -2.5rem;
-    bottom: 6rem;
+    bottom: 7.3rem;
     transform: rotate(90deg);
     font-weight: 500;
     font-size: 0.9rem;
@@ -115,16 +115,26 @@ header{
 
 /***********Media queries (tablets, medium devices) *************/
 @media screen and (max-width: 1024px){
-    header {
+    /* header{
         height: 110vh;
+    }*/    
+
+    .topnav-container{
+    padding-bottom: 4rem;
+    padding-top: 0.8rem;
+    font-size: 1.6rem;
+    }
+
+    .mode-topnav-icon{
+        font-size: 2.5rem;
     }
 }
 
 /***********Media queries (phones, medium devices) *************/
 @media screen and (max-width: 600px){
-    header {
+    /* header {
         height: 110vh;
-    }
+    } */
 
     /* .header-socials, .scroll-down{
         display: none;

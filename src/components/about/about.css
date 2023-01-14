@@ -20,7 +20,7 @@
     transition: var(--transition);
     height: 30rem;
     width: 80%;
-    margin-top: 10%;
+    /* margin-top: 5%; */
 }
 
 /* .about-me-image:hover{
