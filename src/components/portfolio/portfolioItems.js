@@ -61,9 +61,12 @@ const items = [
     {
         id: 6,
         image: IMG6,
-        title: "Dice Game",
-        github: "https://github.com/andreatranchina/dicegame",
-        demo:"https://andreatranchina.github.io/dicegame/"
+        // title: "Dice Game",
+        // github: "https://github.com/andreatranchina/dicegame",
+        // demo:"https://andreatranchina.github.io/dicegame/"
+        title: "Simon Game",
+        github: "https://github.com/andreatranchina/simongame",
+        demo:"https://andreatranchina.github.io/simongame/"
     },
 ]    
 
