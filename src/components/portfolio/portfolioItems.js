@@ -1,9 +1,9 @@
 // import IMG1 from "../../images/notekeeper.png"
 // import IMG2 from "../../images/myWebsite.png"
-// import IMG3 from "../../images/simonGame.png"
+import IMG3 from "../../images/simonGame2.png"
 // import IMG4 from "../../images/drumKit.png"
 import IMG5 from "../../images/tinDog2.png"
-import IMG6 from "../../images/diceGame2.png"
+// import IMG6 from "../../images/diceGame2.png"
 import IMG7 from "../../images/gitnalysis.png"
 import IMG8 from "../../images/fuse.png"
 import IMG9 from "../../images/scholarCentral.png"
@@ -60,7 +60,7 @@ const items = [
     },
     {
         id: 6,
-        image: IMG6,
+        image: IMG3,
         // title: "Dice Game",
         // github: "https://github.com/andreatranchina/dicegame",
         // demo:"https://andreatranchina.github.io/dicegame/"
