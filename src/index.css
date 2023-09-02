@@ -39,15 +39,6 @@
 
 }
 
-html {
-    scroll-behavior: smooth;
-
-}
-
-::webkit-scrollbar {
-    display: none;
-}
-
 body{
     transition: var(--transition);
     /* font-family: 'Mulish', sans-serif; */
@@ -139,7 +130,7 @@ img{
     }
 }
 
-/***********Media queries (phones, medium devices) *************/
+/***********Media queries (phones, small devices) *************/
 @media screen and (max-width: 600px){
     .container{
         width: var(--container-width-sm);
